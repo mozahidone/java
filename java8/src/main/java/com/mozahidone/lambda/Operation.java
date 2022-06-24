@@ -3,6 +3,6 @@ package com.mozahidone.lambda;
 @FunctionalInterface
 public interface Operation {
 
-    void sum(int input);
+    int formula(int op1, int op2, int op3);
 
 }
