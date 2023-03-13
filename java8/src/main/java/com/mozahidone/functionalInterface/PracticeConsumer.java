@@ -1,8 +1,10 @@
-package com.mozahidone.lambda;
+package com.mozahidone.functionalInterface;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 
-public class PrcticeConsumer {
+public class PracticeConsumer {
 
     public static void main(String[] args) {
 
@@ -23,5 +25,11 @@ public class PrcticeConsumer {
 
         consumer.accept("Zayed:");
         consumer1.accept("Nusaiba:");
+
+        List<String> list = Arrays.asList("Zayed", "Nusaiba", "Musfira", "Juairiya");
+
+        Consumer c = null;
+
+        list.forEach(s -> System.out.println(s));
     }
 }
