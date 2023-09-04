@@ -9,6 +9,7 @@
 	<modules>
 		<module>java8</module>
         <module>collection</module>
+        <module>studyEffectiveJava</module>
     </modules>
 	<packaging>pom</packaging>
 
